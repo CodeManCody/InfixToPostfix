@@ -9,7 +9,6 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    cout << "Assignment #3-1, Cody Morgan, codymorgan89@gmail.com" << endl;
     
     lua_State* L = luaL_newstate();
     luaL_openlibs(L);

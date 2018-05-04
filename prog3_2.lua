@@ -9,8 +9,7 @@ function Precedence(token)
 end
 
 function InfixToPostfix(inputString)
-    print("Assignment #3-2, Cody Morgan, codymorgan89@gmail.com")
-
+    
     infixTokens = {}
     postfixTokens = {}
     stack = {}
